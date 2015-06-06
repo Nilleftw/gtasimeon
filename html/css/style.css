@@ -1,0 +1,21 @@
+body {
+    background: grey;
+    font-family: Arial, sans-serif;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background: blue;
+}
+
+td:nth-child(odd){
+    background: grey;
+}
+
+td:nth-child(even){
+    background: white;
+}
