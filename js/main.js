@@ -11,6 +11,24 @@ var main = function() {
     	}
     	}
     );
+
+
+/*    $(document).scroll(function(){
+        $(".toTop").fadeIn(200);
+    });*/
+    $(".toTop").hide();
+
+    $(window).scroll(function(){
+        var height = $(window).scrollTop();
+
+        if (height == 0){
+            $(".toTop").fadeOut(200);
+        }
+
+        else if (height != $(window).height()){
+            $(".toTop").fadeIn(200);
+        }
+    });
 };
 
 $(document).ready(main);
