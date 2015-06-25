@@ -47,7 +47,8 @@ h2 {
 }
 
 img {
-    height: 220px;
+    width: 25em;
+    height: 15em;
 }
 
 .non-active {
@@ -56,9 +57,9 @@ img {
 }
 
 .active {
-    width: 100%;
-    height: 100%;
-    max-width: 640px;
+    width: 40em;
+    height: 25em;
+    max-width: 40em;
 }
 
 .full-image {
@@ -100,7 +101,7 @@ footer p {
 .toTop {
     position: fixed;
     right: 5%;
-    top: 90%;
+    top: 95%;
     background: #EF5350;
     border-radius: 100%;
     width: 50px;

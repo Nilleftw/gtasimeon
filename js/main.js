@@ -6,22 +6,17 @@ var main = function() {
     	}
     	else {
     		$(".active").removeClass();
-    		$(this).addClass('active');
-            
+    		$(this).addClass('active'); 
     	}
     	}
     );
 
-
-/*    $(document).scroll(function(){
-        $(".toTop").fadeIn(200);
-    });*/
     $(".toTop").hide();
 
     $(window).scroll(function(){
         var height = $(window).scrollTop();
 
-        if (height == 0){
+        if (height === 0){
             $(".toTop").fadeOut(200);
         }
 
