@@ -47,8 +47,7 @@ h2 {
 }
 
 img {
-    width: 25em;
-    height: 15em;
+    max-width: 25em;
 }
 
 .non-active {
