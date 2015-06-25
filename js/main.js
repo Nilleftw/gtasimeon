@@ -7,6 +7,7 @@ var main = function() {
     	else {
     		$(".active").removeClass();
     		$(this).addClass('active');
+            
     	}
     	}
     );

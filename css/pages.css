@@ -30,23 +30,34 @@ h1 {
     font-weight: normal;
 }
 
+h2 {
+    position: absolute;
+    color: white;
+    font-weight: normal;
+    top: -10px;
+    left: 10px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
 .container {
     position: relative;
     margin: auto;
-    max-width: 70%;
     top: 145px;
 }
 
 img {
-    height: 120px;
+    height: 220px;
 }
 
 .non-active {
-    height: 120px;
+    width: 400px;
+    height: 240px;
 }
 
 .active {
-    height: 350px;
+    width: 100%;
+    height: 100%;
+    max-width: 640px;
 }
 
 .full-image {
@@ -58,18 +69,23 @@ img {
 
 .car {
     position: relative;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: auto;
+    left: 40%;
+    margin-bottom: 30px;
     display: inline-block;
     background: white;
-    padding: 5px;
     -webkit-box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.36);
     -moz-box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.36);
     box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.36);
 }
 
+.car p {
+    padding: 5px;
+}
+
+
 footer {
-    position: absolute;
+    position: fixed;
     margin: auto;
     top: 95%;
     left: 1.5%;
@@ -78,4 +94,25 @@ footer {
 footer p {
     font-size: 12px;
     color: rgba(0, 0, 0, 0.5);
+}
+
+.toTop {
+    position: relative;
+    left: 90%;
+    background: #EF5350;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.toTop p {
+    position: relative;
+    font-size: 30px;
+    left: -1px;
+    text-align: center;
+    color: white;
+}
+
+.toTop:hover {
+    background: #E57373;
 }
