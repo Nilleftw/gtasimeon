@@ -6,6 +6,15 @@ body {
 
 a {
     text-decoration: none;
+    color: #2196F3;
+}
+
+a:hover {
+    color: #90CAF9;
+}
+
+.header a {
+    text-decoration: none;
 }
 
 .header {
@@ -67,6 +76,30 @@ img {
     font-size: 10px;
     text-align: center;
     color: rgba(0, 0, 0, 0.54);
+}
+
+.locations {
+    background: white;
+    position: relative;
+    margin: auto;
+    margin-bottom: 100px;
+    top: 145px;
+    max-width: 50%;
+}
+
+.locations img {
+    position: relative;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.locations p { 
+    position: relative;
+    padding: 10px;
+    padding-left: 40px;
+    top: -10px;
 }
 
 .car {
