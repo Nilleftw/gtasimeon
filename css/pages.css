@@ -57,17 +57,17 @@ h2 {
 
 img {
     max-width: 400px;
-    height: 240px;
+    height: 267px;
 }
 
 .non-active {
     width: 400px;
-    height: 240px;
+    height: 267px;
 }
 
 .active {
     width: 640px;
-    height: 400px;
+    height: 427px;
     max-width: 640px;
 }
 
